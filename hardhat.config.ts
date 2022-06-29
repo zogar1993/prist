@@ -7,7 +7,7 @@ import "solidity-coverage"
 import "./tasks/block-number"
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || ""
-const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "0x00003108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a"
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 

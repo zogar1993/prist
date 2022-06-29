@@ -26,6 +26,6 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "postinstall": "typechain"
+    "postinstall": "hardhat typechain"
   }
 }
