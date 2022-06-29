@@ -1,11 +1,10 @@
 import "@nomiclabs/hardhat-waffle"
 import "@nomiclabs/hardhat-etherscan"
-import "@nomiclabs/hardhat-ethers"
+import "@typechain/hardhat"
 import "dotenv/config"
-import "./tasks/block-number"
 import "hardhat-gas-reporter"
 import "solidity-coverage"
-import "@typechain/hardhat"
+import "./tasks/block-number"
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || ""
 const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
